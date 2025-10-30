@@ -25,7 +25,7 @@ public:
 
         int province_count = 0;
 
-        for (int i = 0; i<n; i++) { // Disjoin graph so we iterate from the outside
+        for (int i = 0; i<n; i++) { // Disjoint graph so we iterate from the outside
 
             if (visited[i] != 1) {
 
